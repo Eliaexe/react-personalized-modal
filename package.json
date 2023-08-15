@@ -1,25 +1,22 @@
 {
   "name": "react-personalized-modal",
   "author": "eliaexe",
-  "description": "Just a dinamic modal",
-  "version": "0.1.0",
+  "description": "Just a dynamic modal",
+  "version": "0.1.2",
   "private": false,
   "main": "dist/index.js",
-  "module": "dist/index.js",
+  "module": "dist/index.esm.js",
   "dependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files && NODE_ENV=production babel src/lib --out-dir dist --copy-files --modules esm",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -44,7 +41,7 @@
   "devDependencies": {
     "@babel/cli": "^7.22.9",
     "@babel/core": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/preset-env": "^7.22.9"
   }
 }
+

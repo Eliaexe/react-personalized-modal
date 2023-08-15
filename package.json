@@ -2,7 +2,7 @@
   "name": "react-personalized-modal",
   "author": "eliaexe",
   "description": "Just a dynamic modal",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -44,4 +44,3 @@
     "@babel/preset-env": "^7.22.9"
   }
 }
-

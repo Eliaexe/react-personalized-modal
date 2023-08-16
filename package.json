@@ -2,15 +2,12 @@
   "name": "react-personalized-modal",
   "author": "eliaexe",
   "description": "Just a dynamic modal",
-  "version": "0.1.5",
+  "version": "0.1.4",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "core-js": "^3.32.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

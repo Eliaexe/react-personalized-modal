@@ -1,3 +1,4 @@
+import 'core-js/modules/es.symbol.description.js';
 import React, { useState, useEffect } from 'react';
 
 // Modal component that displays a customizable modal

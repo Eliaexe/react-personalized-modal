@@ -2,6 +2,13 @@
 
 A simple npm package for creating customizable modals in your React App.
 
+## Dependencies
+
+- react 18.2.0
+- react-dom 18.2.0
+- @babel/polyfill 7.12.1
+- core-js 3.32.0
+
 ## Installation
 Run the following command in your terminal:
 
@@ -15,7 +22,7 @@ yarn add react-personalized-modal
 
 ## Usage
 ```jsx
-import {Modal} from "react-personalized-modal";
+import { Modal } from "react-personalized-modal";
 
     <Modal
         open={isOpen}
